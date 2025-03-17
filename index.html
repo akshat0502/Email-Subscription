@@ -27,7 +27,7 @@
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML = "Thank you for Subscibing!"
+                msg.innerHTML = "Thank you for Subscribing!"
                 setTimeout(function(){
                     msg.innerHTML = ""
                 },5000)
